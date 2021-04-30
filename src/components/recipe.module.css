@@ -26,10 +26,12 @@
 .calories{
     padding: 0px 10px 0px 10px;
     font-family: 'Roboto', sans-serif;
+    color: rgb(168, 50, 50);
     
 }
 .title {
     margin-top: 4%;
+    margin-bottom: 4%;
     padding-left: 10px;
     padding-right: 0px;
     font-family: 'IBM Plex Mono', monospace;
@@ -44,6 +46,14 @@
 }
 
 .ol{
-    padding: 10px;
+    padding-left: 0px;
+    margin-left: 0px;
     background-color: bisque;
+}
+.url{
+    padding: 0px 10px 0px 10px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: grey;
+    font-size: 3vh;
 }

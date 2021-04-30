@@ -20,7 +20,6 @@ export function App() {
       );
     const data = await response.json();
     setRecipes(data.hits);
-    console.log(recipes);
   };
 
   const handleSearch= e =>{
@@ -52,7 +51,8 @@ export function App() {
         title={recipe.recipe.label}
         calories={Math.round(recipe.recipe.calories)}
         imgUrl={recipe.recipe.image}
-        ingredients={recipe.recipe.ingredients}/>
+        ingredients={recipe.recipe.ingredients}
+        url={recipe.recipe.url}/>
       )): `<h1>Wait a minute and try again please.</h1>`}
       </div>
     </div>
