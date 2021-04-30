@@ -8,7 +8,7 @@ export function App() {
   const APP_KEY = "1c102e662dd5e7860c98abded7349dac";
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState("meet");
 
   useEffect( ()=>{
     getRecipes();
@@ -41,7 +41,8 @@ export function App() {
         <input className="search-bar"
          type="text"
          value={search}
-         onChange={handleSearch}></input>
+         onChange={handleSearch}
+         placeholder="Insert a recipe to search..."></input>
         <button className="search-button" type="submit">Search</button>
       </form>
       <div className="recipes">
