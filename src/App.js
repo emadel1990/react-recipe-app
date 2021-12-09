@@ -48,7 +48,7 @@ export function App() {
         ></input>
         <Button node="button" type="submit" waves="light">
           Search
-          <Icon right>send</Icon>
+          <Icon right></Icon>
         </Button>
       </form>
       <div className="recipes">
