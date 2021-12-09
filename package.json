@@ -34,5 +34,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "materialize-css": "^1.0.0-rc.2",
+    "react-materialize": "^3.10.0",
+    "translate": "^1.4.1"
   }
 }

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.recipe{
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px rgb(0, 0, 0);
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: linear-gradient(120deg,  #343A4F, #0F1620);
+    /* align-items: left; */
+    width: 300px;
+    height: 100%; 
+}
+.image{
+    padding: -20px 0 0 0;
+    margin: 0;
+    width: 100%;
+    max-height: 50%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.calories{
+    padding: 10px 10px 0px 10px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(168, 50, 50); 
+}
+.title {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding-left: 10px;
+    padding-right: 0px;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 2em;
+    color: rgb(89, 174, 196);
+}
+
+.url{
+    padding: 15px 0px 10px 20px;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+    font-size: 2.3em;
+}
+.information{
+    padding: 5px 0px 5px 5px;
+}
+.header-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.information-nut{
+  display: flex;
+  color: white;
+}
+.serves{
+    font-weight: 600;
+    font-size: 1.2em;
+    padding: 5px 0px 5px 10px;
+    color: rgb(89, 174, 196);
+}
+.kcal{
+    color: white;
+    font-weight: 600;
+    font-size: 1.2em;
+    padding: 5px 0px 5px 10px;
+}
+.protein-circle{
+    margin: 5px 3px 0px 0px;
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    background-color:rgb(168, 50, 50)
+}.carbs-circle{
+    margin: 5px 3px 0px 0px;
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    background-color:rgb(50, 168, 66)
+}.fat-circle{
+    margin: 5px 3px 0px 0px;
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    background-color:rgb(168, 137, 50)
+}
