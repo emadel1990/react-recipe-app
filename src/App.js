@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Recipe } from "./components/Recipe/Recipe";
 import "./App.css";
 import { Button, Icon } from "react-materialize";
+import { MdSend } from "react-icons/md";
 
 export function App() {
   const APP_ID = "d00025be";
@@ -43,12 +44,14 @@ export function App() {
           className="search-bar"
           type="text"
           value={search}
-          onChange={() => handleSearch}
+          onChange={handleSearch}
           placeholder="Insert a recipe to search..."
         ></input>
         <Button node="button" type="submit" waves="light">
           Search
-          <Icon right></Icon>
+          <Icon right>
+            <MdSend />
+          </Icon>
         </Button>
       </form>
       <div className="recipes">
