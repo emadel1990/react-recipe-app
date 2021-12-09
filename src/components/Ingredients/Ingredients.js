@@ -1,16 +1,6 @@
 import React, { useState } from "react";
 import "./ingredients.css";
-import {
-  Modal,
-  Button,
-  Collapsible,
-  CollapsibleItem,
-  Icon,
-} from "react-materialize";
-
-/* {
-  ingredient.text;
-} */
+import { Collapsible, CollapsibleItem } from "react-materialize";
 
 const Ingredients = ({ ingredients }) => {
   const [isExp, setExp] = useState(false);
